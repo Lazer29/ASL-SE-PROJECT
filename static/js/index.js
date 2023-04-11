@@ -347,6 +347,7 @@ function progress(stepNum) {
 }
 
 function checkAccuracy(value) {
+	alert(value);
 	if (value === "Bs") {
 		value = "Backspace";
 		document.getElementById('learnImg').innerHTML = `
